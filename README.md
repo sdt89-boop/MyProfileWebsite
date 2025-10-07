@@ -1,52 +1,89 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="This is the story of lil boi Noah.">
-    <meta name="author" content="SamTripp">
-    <title>Character Profile</title>
+    <meta name="description" content="This is the story of Frodo Baggins, a hobbit from the Shire who carried the One Ring.">
+    <meta name="author" content="Sam Tripp">
+    <meta name="keywords" content="Frodo Baggins, Hobbit, Lord of the Rings, Middle Earth, Tolkien">
+    <title>Character Profile: Frodo Baggins</title>
+
+    <!-- ✅ Custom Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- ✅ External CSS file -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>Frodo Baggins: Hobbit from the Shire</h1>
-        <p>Explore the life and legacy of Frodo Baggins, the hobbit who saved Middle-Earth.</p>
+        <p>Explore the life and legacy of Frodo Baggins, the hobbit who <strong>saved Middle-Earth</strong>.</p>
+        
+        <!-- ✅ Navigation -->
+        <nav>
+            <ul>
+                <li><a href="#early-life">Early Life</a></li>
+                <li><a href="#journey">Journey</a></li>
+                <li><a href="#trivia">Trivia</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#learn-more">Learn More</a></li>
+            </ul>
+        </nav>
     </header>
+
     <main>
-        <section>
+        <section id="early-life">
             <h2>Early Life</h2>
-            <p>Frodo is a Hobbit who was born in the Shire, in Middle-Earth. Frodo was raised by his uncle Bilbo Baggins who was a very well-known and wealthy hobbit. Frodo lived with his uncle in a hobbit hole at the highest peak in Hobbiton.</p>
+            <p class="highlight">Frodo is a Hobbit who was born in the Shire, in Middle-Earth. Frodo was raised by his uncle Bilbo Baggins who was a very well-known and wealthy hobbit. Frodo lived with his uncle in a hobbit hole at the highest peak in Hobbiton.</p>
         </section>
-        <section>
+
+        <section id="journey">
             <h2>Journey to Mordor</h2>
-            <p>Frodo was a very well respected hobbit in the Shire who had many good friends. Everything changed when his uncle left him with his old ring. This ring was the all powerful One Ring, forged by the dark lord Souron in the fires of Mount Doom. At the age of 50, Frodo left the shire and ventured to Mordor to destroy the One Ring.</p>
+            <p>Frodo was a very well respected hobbit in the Shire who had many good friends. Everything changed when his uncle left him with his old ring. This ring was the all powerful One Ring, forged by the dark lord Sauron in the fires of Mount Doom. At the age of 50, Frodo left the Shire and ventured to Mordor to destroy the One Ring.</p>
         </section>
-        <section>
+
+        <article>
             <h2>End of His Life</h2>
             <ol>
                 <li>Frodo destroyed the One Ring in Mount Doom with his friend Samwise.</li>
-                <li>He departs from the Northern region of Middle-Earth and returned the Shire</li>
-                <li>He recounts his adventures and completes his uncles book, "A Hobbits Tale".</li>
+                <li>He departed from the Northern region of Middle-Earth and returned to the Shire.</li>
+                <li>He recounted his adventures and completed his uncle’s book, <em>A Hobbit’s Tale</em>.</li>
             </ol>
-        </section>
-        <section>
+        </article>
+
+        <section id="trivia">
             <h3>Frodo Trivia</h3>
             <ul>
-                <li>Frodo's Mithril chainmail armor was worth more than the entire Shire</li>
-                <li>Frodo knew how to speak some Elvish</li>
+                <li>Frodo’s Mithril chainmail armor was worth more than the entire Shire.</li>
+                <li>Frodo knew how to speak some Elvish.</li>
                 <li>His ancestor invented golf by knocking a goblin head into a gopher hole during battle.</li>
             </ul>
         </section>
-        <section>
+
+        <section id="gallery">
             <h3>Gallery</h3>
-            <img src="image-1.jpg" alt="Frodo Baggins" width="300">
-            <img src="image-2.jpg" alt="Mordor" height="100">
-            <img src="image-3.jpg" alt="The Shire" width="300">
+            <div class="gallery">
+                <img src="image-1.jpg" alt="Frodo Baggins">
+                <img src="image-2.jpg" alt="Mordor">
+                <img src="image-3.jpg" alt="The Shire">
+            </div>
+            <video width="320" height="240" controls>
+                <source src="frodo-clip.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
         </section>
 
+        <section id="learn-more">
+            <h3>Learn More</h3>
+            <p>Visit the <a href="https://www.tolkiensociety.org/">Tolkien Society</a> or <a href="https://www.imdb.com/title/tt0120737/">The Lord of the Rings on IMDB</a> to explore more about Frodo and his adventures.</p>
+            <p class="quote">You could say Frodo was <mark>extraordinary</mark> among hobbits.</p>
+        </section>
     </main>
-    <footer>
-        <p>Profile created by Sam Tripp. All images and information are fictional for educational purposes.</p>
-    </footer>
 
+    <footer>
+        <address>
+            <p>Profile created by Sam Tripp. For inquiries, contact <a href="mailto:sdt89@miami.edu">sdt89@miami.edu</a>.</p>
+        </address>
+    </footer>
 </body>
 </html>
