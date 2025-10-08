@@ -1,0 +1,89 @@
+/* ✅ Global Font */
+body {
+    font-family: 'Merriweather', serif;
+    background-color: #fdfbf7;
+    margin: 0;
+    padding: 0;
+}
+
+/* ✅ Header Styling */
+header {
+    text-align: center;
+    background-color: #f0ebe3;
+    padding: 20px;
+}
+
+/* ✅ Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+/* ✅ Style Nav a tag links */
+nav a {
+    color: #3a3a3a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* ✅ a:hover effect */
+nav a:hover {
+    color: #5e3013;
+    text-decoration: underline;
+}
+
+/* ✅ Style 2 HTML Tag Selectors */
+h2 {
+    color: #5e3013;
+    border-bottom: 2px solid #c7a17a;
+}
+
+p {
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ✅ Create and use 2 classes */
+.highlight {
+    background-color: #fff6e5;
+    padding: 10px;
+    border-left: 4px solid #c7a17a;
+}
+
+.quote {
+    font-style: italic;
+    text-align: center;
+    color: #5e3013;
+}
+
+/* ✅ Style the image gallery */
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.gallery img {
+    width: 250px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+/* Fun hover effect for images */
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* ✅ Footer */
+footer {
+    background-color: #f0ebe3;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+}
